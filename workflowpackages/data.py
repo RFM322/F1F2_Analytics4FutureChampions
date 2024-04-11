@@ -10,7 +10,7 @@ import zipfile
 #-----------------------------
 
 #Define URL to download data from Kaggle
-URL = 'rohanrao/formula-1-world-championship-1950-2020'
+URL = 'jtrotman/formula-1-race-data'
 #-----------------------------
 #Define function to download data if it doesn't exist, stop if it is already there
 #Define list of datasets that must exist in the source
