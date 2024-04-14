@@ -8,7 +8,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\datasets\f1\circuits.csv</File>
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">datasets\f1\circuits.csv</File>
           <FormatSpecificOptions>
             <HeaderRow>True</HeaderRow>
             <IgnoreErrors>False</IgnoreErrors>
@@ -27,9 +27,6 @@
           <DefaultAnnotationText>circuits.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="circuitId" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\circuits.csv" type="V_String" />
@@ -95,7 +92,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\datasets\f1\results.csv</File>
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">datasets\f1\results.csv</File>
           <FormatSpecificOptions>
             <HeaderRow>True</HeaderRow>
             <IgnoreErrors>False</IgnoreErrors>
@@ -114,9 +111,6 @@
           <DefaultAnnotationText>results.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="resultId" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\results.csv" type="V_String" />
@@ -205,7 +199,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\datasets\f1\drivers.csv</File>
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">datasets\f1\drivers.csv</File>
           <FormatSpecificOptions>
             <HeaderRow>True</HeaderRow>
             <IgnoreErrors>False</IgnoreErrors>
@@ -224,9 +218,6 @@
           <DefaultAnnotationText>drivers.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="driverId" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\drivers.csv" type="V_String" />
@@ -290,7 +281,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\datasets\f1\races.csv</File>
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">datasets\f1\races.csv</File>
           <FormatSpecificOptions>
             <HeaderRow>True</HeaderRow>
             <IgnoreErrors>False</IgnoreErrors>
@@ -309,9 +300,6 @@
           <DefaultAnnotationText>races.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="raceId" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\races.csv" type="V_String" />
@@ -538,7 +526,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\roflo\AppData\Local\Temp\Engine_14804_9098a4d14831f2458c715aa4d120a8c9_\Engine_14804_ae04dff91335e64e852fe194ad3e6de9~.yxdb</TempFile>
+          <TempFile>C:\Users\roflo\AppData\Local\Temp\Engine_23024_b566f584bc15ba44a14079f5257fadc9_\Engine_23024_63c0b6b5a3749d4097f9a9b4f2983154~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -685,455 +673,6 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
     </Node>
-    <Node ToolID="26">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="474" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\datasets\f1\driver_standings.csv</File>
-          <FormatSpecificOptions>
-            <HeaderRow>True</HeaderRow>
-            <IgnoreErrors>False</IgnoreErrors>
-            <AllowShareWrite>False</AllowShareWrite>
-            <ImportLine>1</ImportLine>
-            <FieldLen>254</FieldLen>
-            <SingleThreadRead>False</SingleThreadRead>
-            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
-            <Delimeter>,</Delimeter>
-            <QuoteRecordBreak>False</QuoteRecordBreak>
-            <CodePage>28591</CodePage>
-          </FormatSpecificOptions>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>driver_standings.csv</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="driverStandingsId" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\driver_standings.csv" type="V_String" />
-            <Field name="raceId" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\driver_standings.csv" type="V_String" />
-            <Field name="driverId" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\driver_standings.csv" type="V_String" />
-            <Field name="points" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\driver_standings.csv" type="V_String" />
-            <Field name="position" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\driver_standings.csv" type="V_String" />
-            <Field name="positionText" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\driver_standings.csv" type="V_String" />
-            <Field name="wins" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\driver_standings.csv" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="28">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="582" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\datasets\f1\seasons.csv</File>
-          <FormatSpecificOptions>
-            <HeaderRow>True</HeaderRow>
-            <IgnoreErrors>False</IgnoreErrors>
-            <AllowShareWrite>False</AllowShareWrite>
-            <ImportLine>1</ImportLine>
-            <FieldLen>254</FieldLen>
-            <SingleThreadRead>False</SingleThreadRead>
-            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
-            <Delimeter>,</Delimeter>
-            <QuoteRecordBreak>False</QuoteRecordBreak>
-            <CodePage>28591</CodePage>
-          </FormatSpecificOptions>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>seasons.csv</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="year" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\seasons.csv" type="V_String" />
-            <Field name="url" size="254" source="File: C:\Users\roflo\OneDrive\Documents\Johnson\GitHub_Projects\F1F2_Analytics4FutureChampions\datasets\f1\seasons.csv" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="30">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="174" y="474" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="points" selected="True" type="Double" size="8" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="31">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="162" y="582" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="33">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="294" y="486" />
-      </GuiSettings>
-      <Properties>
-        <Configuration joinByRecordPos="False">
-          <JoinInfo connection="Left">
-            <Field field="raceId" />
-          </JoinInfo>
-          <JoinInfo connection="Right">
-            <Field field="raceId" />
-          </JoinInfo>
-          <SelectConfiguration>
-            <Configuration outputConnection="Join">
-              <OrderChanged value="False" />
-              <CommaDecimal value="False" />
-              <SelectFields>
-                <SelectField field="Right_raceId" selected="False" rename="Right_raceId" input="Right_" />
-                <SelectField field="Right_circuitId" selected="False" input="Right_" />
-                <SelectField field="Right_name" selected="False" input="Right_" />
-                <SelectField field="Right_date" selected="False" input="Right_" />
-                <SelectField field="Right_time" selected="False" input="Right_" />
-                <SelectField field="Right_fp1_date" selected="False" input="Right_" />
-                <SelectField field="Right_fp1_time" selected="False" input="Right_" />
-                <SelectField field="Right_fp2_date" selected="False" input="Right_" />
-                <SelectField field="Right_fp2_time" selected="False" input="Right_" />
-                <SelectField field="Right_fp3_date" selected="False" input="Right_" />
-                <SelectField field="Right_fp3_time" selected="False" input="Right_" />
-                <SelectField field="Right_quali_date" selected="False" input="Right_" />
-                <SelectField field="Right_quali_time" selected="False" input="Right_" />
-                <SelectField field="Right_sprint_date" selected="False" input="Right_" />
-                <SelectField field="Right_sprint_time" selected="False" input="Right_" />
-                <SelectField field="*Unknown" selected="True" />
-              </SelectFields>
-            </Configuration>
-          </SelectConfiguration>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-    </Node>
-    <Node ToolID="34">
-      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="402" y="486" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <SummarizeFields>
-            <SummarizeField field="year" action="GroupBy" rename="year" />
-            <SummarizeField field="driverId" action="GroupBy" rename="driverId" />
-            <SummarizeField field="round" action="Max" rename="Max_round" />
-            <SummarizeField field="points" action="Max" rename="Max_points" />
-          </SummarizeFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
-    </Node>
-    <Node ToolID="35">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="498" y="486" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <SortInfo locale="1033">
-            <Field field="year" order="Descending" />
-            <Field field="Max_points" order="Descending" />
-          </SortInfo>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>year - Descending
-Max_points - Descending</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
-    </Node>
-    <Node ToolID="36">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="642" y="414" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <SortInfo locale="1033">
-            <Field field="driverId" order="Ascending" />
-            <Field field="year" order="Ascending" />
-            <Field field="round" order="Ascending" />
-          </SortInfo>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>driverId - Ascending
-year - Ascending
-round - Ascending</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
-    </Node>
-    <Node ToolID="37">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="642" y="570" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="Max_round" selected="False" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="38">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
-        <Position x="726" y="570" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <GroupFields>
-            <Field field="year" />
-            <Field field="driverId" />
-          </GroupFields>
-          <HeaderField field="year" />
-          <DataField field="Max_points" />
-          <Methods>
-            <Method method="Sum" />
-          </Methods>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="year" source="CrossTab:Group:Sum:" type="Double" />
-            <Field name="driverId" size="254" source="CrossTab:Group:Sum:" type="V_String" />
-            <Field name="1950" source="CrossTab:Header:year:1950:Sum:" type="Double" />
-            <Field name="1951" source="CrossTab:Header:year:1951:Sum:" type="Double" />
-            <Field name="1952" source="CrossTab:Header:year:1952:Sum:" type="Double" />
-            <Field name="1953" source="CrossTab:Header:year:1953:Sum:" type="Double" />
-            <Field name="1954" source="CrossTab:Header:year:1954:Sum:" type="Double" />
-            <Field name="1955" source="CrossTab:Header:year:1955:Sum:" type="Double" />
-            <Field name="1956" source="CrossTab:Header:year:1956:Sum:" type="Double" />
-            <Field name="1957" source="CrossTab:Header:year:1957:Sum:" type="Double" />
-            <Field name="1958" source="CrossTab:Header:year:1958:Sum:" type="Double" />
-            <Field name="1959" source="CrossTab:Header:year:1959:Sum:" type="Double" />
-            <Field name="1960" source="CrossTab:Header:year:1960:Sum:" type="Double" />
-            <Field name="1961" source="CrossTab:Header:year:1961:Sum:" type="Double" />
-            <Field name="1962" source="CrossTab:Header:year:1962:Sum:" type="Double" />
-            <Field name="1963" source="CrossTab:Header:year:1963:Sum:" type="Double" />
-            <Field name="1964" source="CrossTab:Header:year:1964:Sum:" type="Double" />
-            <Field name="1965" source="CrossTab:Header:year:1965:Sum:" type="Double" />
-            <Field name="1966" source="CrossTab:Header:year:1966:Sum:" type="Double" />
-            <Field name="1967" source="CrossTab:Header:year:1967:Sum:" type="Double" />
-            <Field name="1968" source="CrossTab:Header:year:1968:Sum:" type="Double" />
-            <Field name="1969" source="CrossTab:Header:year:1969:Sum:" type="Double" />
-            <Field name="1970" source="CrossTab:Header:year:1970:Sum:" type="Double" />
-            <Field name="1971" source="CrossTab:Header:year:1971:Sum:" type="Double" />
-            <Field name="1972" source="CrossTab:Header:year:1972:Sum:" type="Double" />
-            <Field name="1973" source="CrossTab:Header:year:1973:Sum:" type="Double" />
-            <Field name="1974" source="CrossTab:Header:year:1974:Sum:" type="Double" />
-            <Field name="1975" source="CrossTab:Header:year:1975:Sum:" type="Double" />
-            <Field name="1976" source="CrossTab:Header:year:1976:Sum:" type="Double" />
-            <Field name="1977" source="CrossTab:Header:year:1977:Sum:" type="Double" />
-            <Field name="1978" source="CrossTab:Header:year:1978:Sum:" type="Double" />
-            <Field name="1979" source="CrossTab:Header:year:1979:Sum:" type="Double" />
-            <Field name="1980" source="CrossTab:Header:year:1980:Sum:" type="Double" />
-            <Field name="1981" source="CrossTab:Header:year:1981:Sum:" type="Double" />
-            <Field name="1982" source="CrossTab:Header:year:1982:Sum:" type="Double" />
-            <Field name="1983" source="CrossTab:Header:year:1983:Sum:" type="Double" />
-            <Field name="1984" source="CrossTab:Header:year:1984:Sum:" type="Double" />
-            <Field name="1985" source="CrossTab:Header:year:1985:Sum:" type="Double" />
-            <Field name="1986" source="CrossTab:Header:year:1986:Sum:" type="Double" />
-            <Field name="1987" source="CrossTab:Header:year:1987:Sum:" type="Double" />
-            <Field name="1988" source="CrossTab:Header:year:1988:Sum:" type="Double" />
-            <Field name="1989" source="CrossTab:Header:year:1989:Sum:" type="Double" />
-            <Field name="1990" source="CrossTab:Header:year:1990:Sum:" type="Double" />
-            <Field name="1991" source="CrossTab:Header:year:1991:Sum:" type="Double" />
-            <Field name="1992" source="CrossTab:Header:year:1992:Sum:" type="Double" />
-            <Field name="1993" source="CrossTab:Header:year:1993:Sum:" type="Double" />
-            <Field name="1994" source="CrossTab:Header:year:1994:Sum:" type="Double" />
-            <Field name="1995" source="CrossTab:Header:year:1995:Sum:" type="Double" />
-            <Field name="1996" source="CrossTab:Header:year:1996:Sum:" type="Double" />
-            <Field name="1997" source="CrossTab:Header:year:1997:Sum:" type="Double" />
-            <Field name="1998" source="CrossTab:Header:year:1998:Sum:" type="Double" />
-            <Field name="1999" source="CrossTab:Header:year:1999:Sum:" type="Double" />
-            <Field name="2000" source="CrossTab:Header:year:2000:Sum:" type="Double" />
-            <Field name="2001" source="CrossTab:Header:year:2001:Sum:" type="Double" />
-            <Field name="2002" source="CrossTab:Header:year:2002:Sum:" type="Double" />
-            <Field name="2003" source="CrossTab:Header:year:2003:Sum:" type="Double" />
-            <Field name="2004" source="CrossTab:Header:year:2004:Sum:" type="Double" />
-            <Field name="2005" source="CrossTab:Header:year:2005:Sum:" type="Double" />
-            <Field name="2006" source="CrossTab:Header:year:2006:Sum:" type="Double" />
-            <Field name="2007" source="CrossTab:Header:year:2007:Sum:" type="Double" />
-            <Field name="2008" source="CrossTab:Header:year:2008:Sum:" type="Double" />
-            <Field name="2009" source="CrossTab:Header:year:2009:Sum:" type="Double" />
-            <Field name="2010" source="CrossTab:Header:year:2010:Sum:" type="Double" />
-            <Field name="2011" source="CrossTab:Header:year:2011:Sum:" type="Double" />
-            <Field name="2012" source="CrossTab:Header:year:2012:Sum:" type="Double" />
-            <Field name="2013" source="CrossTab:Header:year:2013:Sum:" type="Double" />
-            <Field name="2014" source="CrossTab:Header:year:2014:Sum:" type="Double" />
-            <Field name="2015" source="CrossTab:Header:year:2015:Sum:" type="Double" />
-            <Field name="2016" source="CrossTab:Header:year:2016:Sum:" type="Double" />
-            <Field name="2017" source="CrossTab:Header:year:2017:Sum:" type="Double" />
-            <Field name="2018" source="CrossTab:Header:year:2018:Sum:" type="Double" />
-            <Field name="2019" source="CrossTab:Header:year:2019:Sum:" type="Double" />
-            <Field name="2020" source="CrossTab:Header:year:2020:Sum:" type="Double" />
-            <Field name="2021" source="CrossTab:Header:year:2021:Sum:" type="Double" />
-            <Field name="2022" source="CrossTab:Header:year:2022:Sum:" type="Double" />
-            <Field name="2023" source="CrossTab:Header:year:2023:Sum:" type="Double" />
-            <Field name="2024" source="CrossTab:Header:year:2024:Sum:" type="Double" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
-    </Node>
-    <Node ToolID="39">
-      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="786" y="486" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <SummarizeFields>
-            <SummarizeField field="driverId" action="GroupBy" rename="driverId" />
-            <SummarizeField field="year" action="Count" rename="Count" />
-          </SummarizeFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
-    </Node>
-    <Node ToolID="40">
-      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="858" y="486" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <SummarizeFields>
-            <SummarizeField field="Count" action="AvgNo0" rename="AvgNo0_Count" />
-          </SummarizeFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
-    </Node>
-    <Node ToolID="41">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="174" y="522" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\roflo\AppData\Local\Temp\Engine_14804_9098a4d14831f2458c715aa4d120a8c9_\Engine_14804_1ed11bc18789d8429f9b47e10749277e~.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="42">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="402" y="558" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\roflo\AppData\Local\Temp\Engine_14804_9098a4d14831f2458c715aa4d120a8c9_\Engine_14804_add8e4a2d05dad459ad9beca44fdfff3~.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -1189,14 +728,6 @@ round - Ascending</DefaultAnnotationText>
       <Destination ToolID="12" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="11" Connection="Output" />
-      <Destination ToolID="33" Connection="Right" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="30" Connection="Output" />
-      <Destination ToolID="33" Connection="Left" />
-    </Connection>
-    <Connection>
       <Origin ToolID="13" Connection="Join" />
       <Destination ToolID="14" Connection="Input" />
     </Connection>
@@ -1231,50 +762,6 @@ round - Ascending</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="23" Connection="Output" />
       <Destination ToolID="24" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="26" Connection="Output" />
-      <Destination ToolID="30" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="31" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="30" Connection="Output" />
-      <Destination ToolID="41" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="33" Connection="Join" />
-      <Destination ToolID="34" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="33" Connection="Join" />
-      <Destination ToolID="36" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="33" Connection="Join" />
-      <Destination ToolID="42" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="34" Connection="Output" />
-      <Destination ToolID="35" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="35" Connection="Output" />
-      <Destination ToolID="37" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="37" Connection="Output" />
-      <Destination ToolID="38" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="37" Connection="Output" />
-      <Destination ToolID="39" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="39" Connection="Output" />
-      <Destination ToolID="40" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
